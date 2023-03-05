@@ -1,54 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="xaBHg3" name="MathLFO" projectType="audioplug" displaySplashScreen="1"
-              jucerFormatVersion="1">
+              jucerFormatVersion="1" useAppConfig="1" addUsingNamespaceToJuceHeader="1">
   <MAINGROUP id="vnL8GS" name="MathLFO">
     <GROUP id="{A5575C42-B004-299B-293C-90A3E72055FB}" name="Source">
-      <GROUP id="{DD5020C9-9AF2-F392-E183-B7FED9DCB624}" name="CustomSetting">
-        <FILE id="wo9AKy" name="CustomLook.cpp" compile="1" resource="0" file="Source/CustomSetting/CustomLook.cpp"/>
-        <FILE id="BDeIoL" name="CustomLook.h" compile="0" resource="0" file="Source/CustomSetting/CustomLook.h"/>
-        <FILE id="LZpy4a" name="DropDownSelect.cpp" compile="1" resource="0"
-              file="Source/CustomSetting/DropDownSelect.cpp"/>
-        <FILE id="zjyXLG" name="DropDownSelect.h" compile="0" resource="0"
-              file="Source/CustomSetting/DropDownSelect.h"/>
-        <FILE id="slS1Ay" name="Knob.cpp" compile="1" resource="0" file="Source/CustomSetting/Knob.cpp"/>
-        <FILE id="Ei3on7" name="Knob.h" compile="0" resource="0" file="Source/CustomSetting/Knob.h"/>
-        <FILE id="JgyVLK" name="NumberSelect.cpp" compile="1" resource="0"
-              file="Source/CustomSetting/NumberSelect.cpp"/>
-        <FILE id="useHhF" name="NumberSelect.h" compile="0" resource="0" file="Source/CustomSetting/NumberSelect.h"/>
-        <FILE id="Ss5wyI" name="RadioBox.cpp" compile="1" resource="0" file="Source/CustomSetting/RadioBox.cpp"/>
-        <FILE id="leLFbM" name="RadioBox.h" compile="0" resource="0" file="Source/CustomSetting/RadioBox.h"/>
-        <FILE id="y6PsJC" name="Separator.h" compile="0" resource="0" file="Source/CustomSetting/Separator.h"/>
-      </GROUP>
-      <GROUP id="{DB0F2186-0B16-36AD-0EBF-F3348368A70E}" name="images">
-        <FILE id="t4bDbU" name="logo250.png" compile="0" resource="1" file="Source/images/logo250.png"/>
-      </GROUP>
-      <GROUP id="{6C20C6C0-4D46-BFA5-8D4B-7D7C924F6444}" name="MathLFO">
-        <GROUP id="{7B5E8084-6E78-A8AA-45F2-058E70029754}" name="MathSettings">
-          <FILE id="tvO5pL" name="MathSettings.cpp" compile="1" resource="0"
-                file="Source/MathLFO/MathSettings/MathSettings.cpp"/>
-          <FILE id="Hb8Aw7" name="MathSettings.h" compile="0" resource="0" file="Source/MathLFO/MathSettings/MathSettings.h"/>
+      <GROUP id="{386DB541-3DB8-D540-26F4-708C7CB89C69}" name="CustomComponents">
+        <GROUP id="{C9217E6D-ACA2-A169-27D9-AEF2F5847A61}" name="CustomLooks">
+          <FILE id="BkMxrp" name="CustomLook.cpp" compile="1" resource="0" file="Source/CustomComponents/CustomLooks/CustomLook.cpp"/>
+          <FILE id="dEZjAB" name="CustomLook.h" compile="0" resource="0" file="Source/CustomComponents/CustomLooks/CustomLook.h"/>
+          <FILE id="iMT94u" name="Knob.cpp" compile="1" resource="0" file="Source/CustomComponents/CustomLooks/Knob.cpp"/>
+          <FILE id="KlFMXQ" name="Knob.h" compile="0" resource="0" file="Source/CustomComponents/CustomLooks/Knob.h"/>
+          <FILE id="qYs5iS" name="NumberSelect.cpp" compile="1" resource="0"
+                file="Source/CustomComponents/CustomLooks/NumberSelect.cpp"/>
+          <FILE id="Tc1LdF" name="NumberSelect.h" compile="0" resource="0" file="Source/CustomComponents/CustomLooks/NumberSelect.h"/>
+          <FILE id="UbvnxT" name="RadioBox.cpp" compile="1" resource="0" file="Source/CustomComponents/CustomLooks/RadioBox.cpp"/>
+          <FILE id="rrhnl9" name="RadioBox.h" compile="0" resource="0" file="Source/CustomComponents/CustomLooks/RadioBox.h"/>
+          <FILE id="gt2ycw" name="ResetButton.cpp" compile="1" resource="0" file="Source/CustomComponents/CustomLooks/ResetButton.cpp"/>
+          <FILE id="WueSkQ" name="ResetButton.h" compile="0" resource="0" file="Source/CustomComponents/CustomLooks/ResetButton.h"/>
+          <FILE id="Y1xHL6" name="Separator.h" compile="0" resource="0" file="Source/CustomComponents/CustomLooks/Separator.h"/>
         </GROUP>
-        <GROUP id="{66A99BD0-CDCC-C25D-E8AC-89D9C1BE73D0}" name="MathVisualiser">
-          <FILE id="SdBrOX" name="MathVisualiser.cpp" compile="1" resource="0"
-                file="Source/MathLFO/MathVisualiser/MathVisualiser.cpp"/>
-          <FILE id="FdPo19" name="MathVisualiser.h" compile="0" resource="0"
-                file="Source/MathLFO/MathVisualiser/MathVisualiser.h"/>
+        <GROUP id="{1A66CA6C-3786-19C2-133E-BED2CCA7E576}" name="Images">
+          <FILE id="vUHfpy" name="logo250.png" compile="0" resource="1" file="Source/CustomComponents/Images/logo250.png"/>
+          <FILE id="CrrNgp" name="reload.png" compile="0" resource="1" file="Source/CustomComponents/Images/reload.png"/>
         </GROUP>
-        <FILE id="Yml4QD" name="MathLFO.cpp" compile="1" resource="0" file="Source/MathLFO/MathLFO.cpp"/>
-        <FILE id="jJWTyD" name="MathLFO.h" compile="0" resource="0" file="Source/MathLFO/MathLFO.h"/>
       </GROUP>
-      <GROUP id="{B2652285-8CF4-80C9-6129-63A58AC2AF1D}" name="Utils">
-        <FILE id="WQ5H1x" name="Utils.cpp" compile="1" resource="0" file="Source/Utils/Utils.cpp"/>
-        <FILE id="Bb7jpU" name="Utils.h" compile="0" resource="0" file="Source/Utils/Utils.h"/>
+      <GROUP id="{DF0DC9C2-E727-4D75-DDA5-E9AB5F355EB9}" name="LFOs">
+        <GROUP id="{988E27C9-A137-ED97-5F74-1BA0449F66EB}" name="MathLFO">
+          <GROUP id="{B12401EE-55CF-5765-3EAC-5859A8783569}" name="MathSettings">
+            <FILE id="wvy9uJ" name="MathSettings.cpp" compile="1" resource="0"
+                  file="Source/LFOs/MathLFO/MathSettings/MathSettings.cpp"/>
+            <FILE id="ZvgaNd" name="MathSettings.h" compile="0" resource="0" file="Source/LFOs/MathLFO/MathSettings/MathSettings.h"/>
+          </GROUP>
+          <GROUP id="{64FCC425-3779-F280-743A-59B10AFFE025}" name="MathVisualiser">
+            <FILE id="KnoXdJ" name="MathVisualiser.cpp" compile="1" resource="0"
+                  file="Source/LFOs/MathLFO/MathVisualiser/MathVisualiser.cpp"/>
+            <FILE id="CNvgj1" name="MathVisualiser.h" compile="0" resource="0"
+                  file="Source/LFOs/MathLFO/MathVisualiser/MathVisualiser.h"/>
+          </GROUP>
+          <FILE id="N7vbcd" name="exprtk.hpp" compile="0" resource="0" file="Source/LFOs/MathLFO/exprtk.hpp"/>
+          <FILE id="iJp4TD" name="MathLFO.cpp" compile="1" resource="0" file="Source/LFOs/MathLFO/MathLFO.cpp"/>
+          <FILE id="CRUID3" name="MathLFO.h" compile="0" resource="0" file="Source/LFOs/MathLFO/MathLFO.h"/>
+        </GROUP>
+        <FILE id="kMY9bC" name="LFO.h" compile="0" resource="0" file="Source/LFOs/LFO.h"/>
       </GROUP>
-      <FILE id="rC3G5B" name="PluginProcessor.cpp" compile="1" resource="0"
-            file="Source/PluginProcessor.cpp"/>
-      <FILE id="iB89C4" name="PluginProcessor.h" compile="0" resource="0"
-            file="Source/PluginProcessor.h"/>
-      <FILE id="N0JJer" name="PluginEditor.cpp" compile="1" resource="0"
+      <GROUP id="{FDACD568-7F9D-C0F7-8854-3C2FFA4DBDE5}" name="Utils">
+        <GROUP id="{2E30F7C0-B4B1-F4C9-4080-05B479913916}" name="AudioLoad">
+          <FILE id="Ny7wJP" name="AudioLoad.cpp" compile="1" resource="0" file="Source/Utils/AudioLoad/AudioLoad.cpp"/>
+          <FILE id="PL1p0d" name="AudioLoad.h" compile="0" resource="0" file="Source/Utils/AudioLoad/AudioLoad.h"/>
+        </GROUP>
+        <GROUP id="{98B52B56-C7F3-9DA3-891E-44050747A9A5}" name="Timing">
+          <FILE id="Guk23t" name="Timing.cpp" compile="1" resource="0" file="Source/Utils/Timing/Timing.cpp"/>
+          <FILE id="LVhM11" name="Timing.h" compile="0" resource="0" file="Source/Utils/Timing/Timing.h"/>
+        </GROUP>
+        <FILE id="kQgtNK" name="Constants.h" compile="0" resource="0" file="Source/Utils/Constants.h"/>
+        <FILE id="xN8CPF" name="Utils.cpp" compile="1" resource="0" file="Source/Utils/Utils.cpp"/>
+        <FILE id="sRKQOQ" name="Utils.h" compile="0" resource="0" file="Source/Utils/Utils.h"/>
+      </GROUP>
+      <FILE id="BfByKn" name="PluginEditor.cpp" compile="1" resource="0"
             file="Source/PluginEditor.cpp"/>
-      <FILE id="HCKALD" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="jTqWfL" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="gAviRu" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="YPRSi9" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
     </GROUP>
   </MAINGROUP>
   <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>

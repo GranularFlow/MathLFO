@@ -1,32 +1,5 @@
-Builds
-cmake-build-debug
-.idea/
-# VS files
-/MathLFO_SharedCode.vcxproj
-/MathLFO_StandalonePlugin.vcxproj.filters
-/MathLFO_StandalonePlugin.vcxproj.user
-/MathLFO_VST3.vcxproj.filters
-/MathLFO_VST3.vcxproj
-/resources.rc
-/MathLFO_StandalonePlugin.vcxproj
-/MathLFO_SharedCode.vcxproj.filters
-/x64/Debug/Shared Code/
-/x64/Debug/Standalone Plugin/MathLFO.exe.recipe
-/x64/Debug/Standalone Plugin/*.tlog
-/x64/Debug/Standalone Plugin/MathLFO.ilk
-/x64/Debug/Standalone Plugin/MathLFO.pdb
-/x64/Debug/Standalone Plugin/MathLFO_StandalonePlugin.vcxproj.FileListAbsolute.txt
-/x64/Debug/Standalone Plugin/include_juce_audio_plugin_client_Standalone.obj
-/x64/Debug/Standalone Plugin/resources.res
-/.vs/
-/x64/Debug/VST3/*.tlog/
-/x64/Debug/VST3/MathLFO.exp
-/x64/Debug/VST3/MathLFO.lib
-/x64/Debug/VST3/MathLFO.pdb
-/x64/Debug/VST3/MathLFO.vst3.recipe
-/x64/Debug/VST3/MathLFO_VST3.log
-/x64/Debug/VST3/MathLFO.ilk
-/x64/Debug/VST3/MathLFO_VST3.vcxproj.FileListAbsolute.txt
-/x64/Debug/VST3/include_juce_audio_plugin_client_VST3.obj
-/x64/Debug/VST3/resources.res
-/JuceLibraryCode/
+# Ignore everything:
+/*
+!MathLFO.jucer
+!Source/
+!.gitignore
